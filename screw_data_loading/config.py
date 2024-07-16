@@ -1,0 +1,17 @@
+DEFAULT_PARAMS = {
+    "source_path": "data/10k_x25",
+    "tightening_steps": "all",
+    "tightening_cycles": [1, 2],
+    "tightening_values": "all",
+    "equidistancing_enabled": True,
+    "target_length": 850,
+    "cutoff_position": "post",
+    "padding_value": 0,
+    "padding_position": "pre",
+    "split_ratio": 0.65,
+    "split_seed": 42,
+    "result_format": "raw",
+    "return_format": "nested_list",
+    "logging_enabled": True,
+    "verbose": True,
+}

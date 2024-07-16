@@ -1,0 +1,134 @@
+2024-07-16 07:32:07,485 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:32:07,486 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:32:14,419 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:32:14,420 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:32:14,421 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:32:14,422 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:32:14,422 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:32:14,423 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:32:14,424 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:32:14,425 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:32:14,425 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:32:30,046 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:32:30,047 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:32:36,895 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:32:36,896 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:32:36,896 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:32:36,897 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:32:36,898 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:32:36,898 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:32:36,899 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:32:36,899 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:32:36,899 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:37:35,444 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:37:35,445 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:37:42,045 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:37:42,046 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:37:42,047 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:37:42,047 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:37:42,048 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:37:42,048 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:37:42,049 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:37:42,050 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:37:42,050 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:40:10,196 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:40:10,197 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:40:16,755 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:40:16,757 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:40:16,758 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:40:16,758 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:40:16,759 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:40:16,759 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:40:16,760 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:40:16,761 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:40:16,761 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:42:45,949 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:42:45,950 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:42:52,506 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:42:52,507 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:42:52,507 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:42:52,508 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:42:52,508 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:42:52,509 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:42:52,509 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:42:52,509 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:42:52,510 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:44:00,524 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:44:00,524 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:44:07,085 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:44:07,087 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:44:07,087 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:44:07,088 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:44:07,089 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:44:07,090 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:44:07,090 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:44:07,090 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:44:07,091 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 07:50:07,917 - __main__ - INFO - Using parameters: {'source_path': 'data/10k_x25', 'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'result_format': 'raw', 'return_format': 'nested_list', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:50:07,917 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': 'data/10k_x25'}
+2024-07-16 07:50:07,918 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 07:50:07,918 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 07:50:14,448 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 07:50:14,448 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 07:50:14,449 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 07:50:14,450 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 07:50:14,450 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 07:50:14,450 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 07:50:14,451 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 07:50:14,451 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 07:50:14,451 - __main__ - INFO - Loaded 4 training samples and 4 test samples.
+2024-07-16 08:01:37,755 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': './tests/data/testset_01'}
+2024-07-16 08:01:37,755 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 08:01:37,756 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': './tests/data/testset_01', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:01:38,243 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 08:01:38,243 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 595.76 -> 624.00
+2024-07-16 08:01:38,243 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 624.00 -> 622.34
+2024-07-16 08:01:38,244 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 622.34 -> 800.00
+2024-07-16 08:01:38,244 - screw_data_loading.load.from_directory - INFO - Training data count: 30, Testing data count: 8
+2024-07-16 08:01:38,244 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 26, 1 count: 4
+2024-07-16 08:01:38,245 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 6, 1 count: 2
+2024-07-16 08:01:38,245 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 08:01:38,247 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': None, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': './tests/data/testset_01'}
+2024-07-16 08:01:38,247 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 08:01:38,248 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': './tests/data/testset_01', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': None, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:01:38,324 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 08:01:38,324 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 595.76 -> 624.00
+2024-07-16 08:01:38,325 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 624.00 -> 622.34
+2024-07-16 08:01:38,325 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 622.34 -> 800.00
+2024-07-16 08:01:38,325 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 08:01:38,327 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'numpy_array', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': './tests/data/testset_01'}
+2024-07-16 08:01:38,328 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 08:01:38,328 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': './tests/data/testset_01', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'numpy_array', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 595.76 -> 624.00
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 624.00 -> 622.34
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 622.34 -> 800.00
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - Array 0 shape: (2, 30, 800)
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - Array 1 shape: (2, 8, 800)
+2024-07-16 08:01:38,402 - screw_data_loading.load.from_directory - INFO - Array 2 shape: (30,)
+2024-07-16 08:01:38,403 - screw_data_loading.load.from_directory - INFO - Array 3 shape: (8,)
+2024-07-16 08:01:38,403 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 08:01:38,404 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': './tests/data/testset_01'}
+2024-07-16 08:01:38,405 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 08:01:38,405 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': './tests/data/testset_01', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2, 3, 4], 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': True, 'target_length': 800, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.8, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:01:38,474 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 08:01:38,474 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 595.76 -> 624.00
+2024-07-16 08:01:38,474 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 624.00 -> 622.34
+2024-07-16 08:01:38,475 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 622.34 -> 800.00
+2024-07-16 08:01:38,475 - screw_data_loading.load.from_directory - INFO - Training data count: 30, Testing data count: 8
+2024-07-16 08:01:38,475 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 26, 1 count: 4
+2024-07-16 08:01:38,475 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 6, 1 count: 2
+2024-07-16 08:01:38,475 - screw_data_loading.get_data - INFO - Loaded data from directory.
+2024-07-16 08:05:13,465 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': 'all', 'tightening_values': ['time', 'torque'], 'equidistancing_enabled': False, 'target_length': None, 'cutoff_position': None, 'padding_value': None, 'padding_position': None, 'split_ratio': None, 'split_seed': None, 'return_format': 'nested_list', 'result_format': 'binary', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:05:13,465 - screw_data_loading.prep.validating - ERROR - Source path is not provided.
+2024-07-16 08:07:58,739 - screw_data_loading.prep.validating - INFO - Starting the parameter check with parameters: {'tightening_steps': 'all', 'tightening_cycles': [1, 2], 'tightening_values': 'all', 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True, 'source_path': 'data/10k_x25'}
+2024-07-16 08:07:58,740 - screw_data_loading.prep.validating - INFO - Finished the parameter check successfully with no errors.
+2024-07-16 08:07:58,741 - screw_data_loading.get_data - INFO - Starting data loading process with parameters: {'source_path': 'data/10k_x25', 'tightening_steps': [1, 2, 3, 4], 'tightening_cycles': [1, 2], 'tightening_values': ['time', 'torque', 'angle', 'gradient'], 'equidistancing_enabled': True, 'target_length': 850, 'cutoff_position': 'post', 'padding_value': 0, 'padding_position': 'pre', 'split_ratio': 0.65, 'split_seed': 42, 'return_format': 'nested_list', 'result_format': 'raw', 'logging_enabled': True, 'verbose': True}
+2024-07-16 08:08:05,506 - screw_data_loading.load.from_directory - INFO - Finished loading and preparing the data.
+2024-07-16 08:08:05,506 - screw_data_loading.load.from_directory - INFO - - Equidistancing results (avg. lengths): 673.42 -> 702.36
+2024-07-16 08:08:05,507 - screw_data_loading.load.from_directory - INFO - - Truncating results (avg. lengths): 702.36 -> 700.11
+2024-07-16 08:08:05,508 - screw_data_loading.load.from_directory - INFO - - Padding results (avg. lengths): 700.11 -> 850.00
+2024-07-16 08:08:05,509 - screw_data_loading.load.from_directory - INFO - Training data count: 260, Testing data count: 140
+2024-07-16 08:08:05,509 - screw_data_loading.load.from_directory - INFO - Training labels - 0 count: 257, 1 count: 3
+2024-07-16 08:08:05,510 - screw_data_loading.load.from_directory - INFO - Testing labels - 0 count: 139, 1 count: 1
+2024-07-16 08:08:05,511 - screw_data_loading.get_data - INFO - Loaded data from directory.
